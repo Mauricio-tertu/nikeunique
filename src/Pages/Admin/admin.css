@@ -1,0 +1,41 @@
+* { 
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Admin/img/nike1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+.container img {
+    width: 80px;
+}
+
+.container h3 {
+color: rgb(39, 41, 41);
+margin-right: -10px;
+margin-left: 10px;
+size: 10px;
+
+
+}
+
+.container h6 {
+    margin-right: 100px;
+    color: rgb(251, 129, 6);
+    padding-top: 17px;
+ 
+    
+}

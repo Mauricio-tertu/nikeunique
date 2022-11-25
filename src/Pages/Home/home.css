@@ -1,0 +1,23 @@
+* { 
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.container h3 {
+    display: flex;
+    align-items: center;
+   color: rgb(16, 227, 227);
+   margin-right: -10px;
+   margin-left: 10px;
+   size: 10px;
+
+}
+
+.container h6 {
+    margin-right: 200px;
+    color: rgb(29, 28, 26);
+    padding-top: 17px;
+ 
+    
+}

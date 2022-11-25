@@ -1,0 +1,53 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Login/assets/madrid.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    max-width: 455px;
+  
+}
+
+.form input{
+    width: 70%;
+  
+    border: 0;
+    height: 36px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    padding: 0 8px;
+    outline: none;
+}
+
+.form button{
+    height: 36px;
+    width: 180px;
+    border-radius: 6px ;
+    margin-top: 12px;
+    background: linear-gradient(rgb(244, 109, 6),  rgb(247, 201, 73));;
+    border: 0;
+    font-size: 18px;
+    color: rgb(250, 246, 246);
+    transition: transform 0.06s;
+}
+
+.form button:hover {
+    transform: scale(1.15);
+}
+
+.link{
+    color: rgb(247, 247, 250);
+    background-color: rgba(11, 11, 11, 0.558);
+}
